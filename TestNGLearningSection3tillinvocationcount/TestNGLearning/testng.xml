@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="listeners.ListenerTestNG"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="listeners.ListenerTestNGTestCase"/>
+         </classes>
+    </test>
+</suite>
+<!-- 
+<suite name="Functional Suite">
+	<listeners>
+		<listener class-name="customListeners.Listeners"></listener>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	</listeners>
+
+	<test name="Login Test">
+		<classes>
+
+			<class name="testcases.TestCase1" />
+
+		</classes>
+	</test> 
+
+	<test name="Validate Title Test">
+		<classes>
+
+			<class name="testcases.TestCase2" />
+		</classes>
+	</test> 
+
+	<test name="Dependency Test">
+		
+
+		<classes>
+			<class name="testcases.TestCase3" />
+
+		</classes>
+	</test> 
+
+
+	<test name="Failure Test">
+		<classes>
+
+			<class name="testcases.TestFailure" />
+		</classes>
+	</test> 
+
+</suite> 
+  -->
+  
+  
+

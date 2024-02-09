@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Group Test">
+    <test name="MyGroups" verbose="2" preserve-order="true">
+        <groups>
+            <run>
+              <!-- include name = "group1"></include>
+              <include name = "group2"></include-->
+            </run>
+        </groups>
+        <classes>
+            <class name="testcases.TestNGGroups"></class>
+        </classes>
+    </test>
+</suite>
