@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Register suite">
+	<test name="Register test">
+		<classes>
+			<class name=".SleniumIDWithTestNG"/>
+		</classes>
+	</test>
+</suite>
